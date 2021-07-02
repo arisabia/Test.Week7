@@ -1,0 +1,50 @@
+﻿body
+{
+    background-color: #b5d3e3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    font-size: 15px;
+    color:#228183;
+}
+.title {
+    color: #039b9e;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ul{
+    padding: 30px;
+    color: #b5d3e3;
+    list-style-type: none;
+}
+.ul-menu{
+    margin: 0 auto 0 auto;
+    width: 310px;
+    padding: 14px;
+    background-color: #b9eee4;
+    text-align: center;
+    overflow: hidden;
+}
+.menu{
+    text-decoration: none;
+}
+.li-menu {
+    float: left;
+    padding: 5px;
+}
+.menu:hover{
+    color: black;
+}
+.menu:visited{
+    color:#497af3;
+}
+#footer, p {
+    text-align: center;
+}
+.button{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
