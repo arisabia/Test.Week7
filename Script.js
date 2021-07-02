@@ -21,5 +21,17 @@ function getStorage() {
 
 
 function IscrizioneCompletata() {
-    alert("Iscrizione completata correttamente!");
+    alert("Iscrizione completata correttamente.");
+}
+
+function unSubscribe() {
+    alert("Disiscrizione completata.")
+}
+function unSubscribe() {
+    let storage = getStorage();
+    try {
+        storage.clear();
+    } catch (e) {
+        alert("Impossibile cancellare le informazioni");
+    }
 }
